@@ -219,13 +219,11 @@ function create_config( )
     "download_media",
     "invite"
     },
-    sudo_users = {},--Sudo users
-    disabled_channels = {172767635,146172170},
-    realm = {},--Realms Id
+    sudo_users = {172767635,146172170},--Sudo users
+    disabled_channels = {},
+    realm = {22199217},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
-An advance Administration bot based on yagop/telegram-bot 
-
+    
     help_text = [[
 Commands list :
 
