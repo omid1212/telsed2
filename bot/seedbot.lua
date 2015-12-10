@@ -241,7 +241,7 @@ Our channels
 @iranlara[persian]
 ]],
     help_text = [[
-ذرحال تکمیل...
+درحال تکمیل...
 ]]
 
   }
