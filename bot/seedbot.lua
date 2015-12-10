@@ -228,9 +228,9 @@ Larabot v3.5
 An advance Administration bot based on Telegram-CLI written in lua
 
 Admins
-@rastin44[Founder]
-@alpha08 [Developer]
-@stargroupbot&@adrin436 [Manager]
+@Rastin44[Founder]
+@Alpha08 [Developer]
+@Stargroupbot&@Adrin436 [Manager]
 
 Special thanks to
 my team to help 
