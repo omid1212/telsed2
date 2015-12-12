@@ -223,14 +223,14 @@ function create_config( )
     disabled_channels = {},
     realm = {46642660},--Realms Id
     moderation = {data = 'data/moderation.json'},
-       about_text = [[telelara v1
-Larabot v3.5
+       about_text = [[blackbot v1
+blackbot v3.5
 An advance Administration bot based on Telegram-CLI written in lua
 
 Admins
-@Rastin44[Founder]
-@Alpha08 [Developer]
-@Stargroupbot&@Adrin436 [Manager]
+@omidtarh[Founder]
+@Black_Support01 [Developer]
+
 
 Special thanks to
 my team to help 
@@ -238,10 +238,114 @@ createing bot Lara
 ;)
 
 Our channels
-@iranlara[persian]
+@omidtarh[persian]
 ]],
     help_text = [[
-درحال تکمیل...
+
+کیک کردن:(با ریپلی هم انجام میشود)
+!kick [username|id]
+You can also do it by reply
+
+بن کردن :(با ریپلی هم انجام میشود)
+!ban [ username|id]
+You can also do it by reply
+آن بن کردن :(با ریپلی هم انجام میشود)
+!unban [id]
+You can also do it by reply
+لیست اعضای گروه:
+!who
+Members list
+لیست مدیران گروه:
+!modlist
+Moderators list
+مدیر کردن کسی :(فقط برای صاحب گروه)
+!promote [username]
+Promote someone
+از مدیر در اوردن:(فقط برای صاحب گروه)
+!demote [username]
+Demote someone
+خارج شدن از گروه:
+!kickme
+Will kick user
+درباره ی گروه:
+!about
+Group description
+تنظیم عکس گروه:
+!setphoto
+Set and locks group photo
+تنظیم اسم گروه:
+!setname [name]
+Set group name
+قوانین گروه:
+!rules
+Group rules
+نمایش آیدی گروه:
+!id
+return group id or user id
+آموزش :
+!help
+قفل کردن اسم یا افراد
+!lock [member|name]
+Locks [member|name]
+باز کردن اعضا،اسم،عکس:
+!unlock [member|name|photo]
+Unlocks [member|name|photo]
+تعیین قوانین:
+!set rules <text>
+Set <text> as rules
+تعیین درباره ی گروه:
+!set about <text>
+Set <text> as about
+نمایش تنظیماته اعمال شده
+!settings
+Returns group settings
+لینک جدید
+!newlink
+create/revoke your group link
+گرفتن لینک
+!link
+returns group link
+نمایش آیدی صاحب گروه
+!owner
+returns group owner id
+تغییر صاحب گروه
+!setowner [id]
+Will set id as owner
+تنطیم میزان حساسیت به اسپم
+!setflood [value]
+Set [value] as flood sensitivity
+
+!stats
+Simple message statistics
+ذخیره سازی کلمات
+!save [value] <text>
+Save <text> as [value]
+دریافت کلمات
+!get [value]
+Returns text of [value]
+تخلیه سازی مدیران،قوانین،متن درباره
+!clean [modlist|rules|about]
+Will clear [modlist|rules|about] and set it to nil
+گرفتن آیدی کاربر
+!res [username]
+returns user id
+"!res @username"
+نمایش عملکرد دستورات داده شده
+!log
+will return group logs
+نمایش اعضای مسدود شده
+!banlist
+شما میتوانید هم از بک اسلش (/) و هم از علامت تعجب (!) استفاده کنید
+**U can use both "/" and "!" 
+برای کیک کردن فرد از گروه از دستور
+[!/]kick (username|id)
+-برای بن کردن فرد از گروه از دستور
+[!/]ban ( username|id)
+-برای انبن کردن فرد از گروه از دستور
+[!/]unban (id)
+برای هر سه امکان بالا میتوانید از ریپلای هم استفاده کنید🤗
+by :omidwezrid
+
 ]]
 
   }
