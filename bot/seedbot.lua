@@ -234,7 +234,7 @@ Admins
 
 Special thanks to
 my team to help 
-createing bot Lara 
+createing bot black
 ;)
 
 Our channels
